@@ -1,2 +1,4 @@
 # Quiz-em-Python
-Projeto feito por Brenda Nascimento
+Seja Bem Vindo ao meu primeiro projeto
+
+Desenvolvido por Brenda Nascimento
