@@ -9,4 +9,7 @@ print("Quem desenvolveu o jogo Grand Theft Auto (GTA)? \n (A) Rockstar Games "
       "\n (B) Ubisoft \n (C) Activision \n (D) EA \n")
 answer_1 = input("Resposta: ")
 
-if answer_1 == 
+if answer_1 == "A":
+    print("Correto!")
+else:
+    print("Incorreto!")
