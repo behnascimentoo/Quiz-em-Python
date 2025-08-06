@@ -13,3 +13,11 @@ if answer_1 == "A":
     print("Correto!")
 else:
     print("Incorreto!")
+
+print("Qual o nome do protagonista do jogo GTA San Andreas? \n (A) Carlos John "
+      "\n (B) Carl Jonhson \n (C) Carl Jaqueline \n (D) Carlos Jonhson")
+answer_2 = input("Resposta: ")
+if answer_2 == "B":
+    print("Correto!")
+else:
+    print("Incorreto!")
