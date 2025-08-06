@@ -4,6 +4,8 @@ answer_user = input("Quer começar? [S/N] ")
 if answer_user != "S":
     quit()
 
+score = 0
+
 print("começando...")
 print("Quem desenvolveu o jogo Grand Theft Auto (GTA)? \n (A) Rockstar Games "
       "\n (B) Ubisoft \n (C) Activision \n (D) EA \n")
@@ -11,6 +13,7 @@ answer_1 = input("Resposta: ")
 
 if answer_1 == "A":
     print("Correto!")
+    score += 1
 else:
     print("Incorreto!")
 
@@ -19,5 +22,8 @@ print("Qual o nome do protagonista do jogo GTA San Andreas? \n (A) Carlos John "
 answer_2 = input("Resposta: ")
 if answer_2 == "B":
     print("Correto!")
+    score += 1
 else:
     print("Incorreto!")
+
+print(f"Quiz acabou... Pontuação: {score}/2")
